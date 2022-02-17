@@ -1,7 +1,7 @@
 import click, inflection, inspect
 from typer import Typer, Context
 from dataclasses import dataclass
-from api import config, rest
+from ..api import config, rest
 
 @dataclass
 class State:

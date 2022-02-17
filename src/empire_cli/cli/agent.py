@@ -2,9 +2,9 @@ from typing import List
 
 import typer, click
 import tabulate
-from api.rest import ServerConnection, ApiError
-from cli.utils import print_util
-from cli import cli_base
+from ..api.rest import ServerConnection, ApiError
+from .utils import print_util
+from . import cli_base
 
 app = cli_base.EmpireTyper()
 

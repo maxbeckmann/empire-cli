@@ -3,8 +3,8 @@ import typer, urllib3
 from typing import Optional
 from pathlib import Path
 
-import api
-from cli import cli_base, listener, stager, agent, module
+from . import api
+from .cli import cli_base, listener, stager, agent, module
 
 app = typer.Typer()
 app.add_typer(listener.app, name="listener")

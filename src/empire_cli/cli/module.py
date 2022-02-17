@@ -1,8 +1,8 @@
 import typer, click, base64
 from pathlib import Path
-from api.rest import ServerConnection
-from cli.utils import print_util
-from cli import cli_base
+from ..api.rest import ServerConnection
+from .utils import print_util
+from . import cli_base
 
 import tabulate
 

@@ -1,8 +1,8 @@
 from typing import Optional, List
 import typer, click
-from api.rest import ServerConnection, ListenerOption, ListenerType
-from cli.utils import print_util
-from cli import cli_base
+from ..api.rest import ServerConnection, ListenerOption, ListenerType
+from .utils import print_util
+from . import cli_base
 
 import tabulate
 
